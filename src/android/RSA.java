@@ -44,7 +44,7 @@ public class RSA {
 			.setStartDate(notBefore.getTime())
 			.setEndDate(notAfter.getTime())
 			.setKeySize(2048)
-			.setKeyType("RSA")
+			.setKeyType("RSA");
 		if (encryptionRequired) {
 			builder.setEncryptionRequired();
 		}
